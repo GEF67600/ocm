@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
 :root{
   color-scheme: dark;
 }
@@ -20,9 +21,14 @@ main{
 
 /* Titres */
 h1{
-  font-size:1.8em;               /* plus petit qu’avant */
-  border-left:4px solid #990000; /* rouge profond */
-  padding-left:12px;
+  text-shadow: 0 0 12px rgba(180,20,30,0.4);
+  font-family: 'Oswald', Impact, sans-serif;
+  font-weight:700;
+  font-size:2.4em;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  border-left:4px solid #b11226; /* rouge */
+  padding-left:14px;
   margin-top:10px;
 }
 
