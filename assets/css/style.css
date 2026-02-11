@@ -326,8 +326,8 @@ h2{
 
 .map-banner{
   width:100%;
-  max-width:900px;
-  height:350px;
+  max-width:800px;
+  height:565px;
   object-fit:cover;
   display:block;
   margin:20px auto 30px;
