@@ -3,9 +3,9 @@ layout: default
 title: Mexique
 permalink: /pays/mexique/
 ---
-<img src="{{ '/assets/images/mexique-carte.jpg' | relative_url }}" class="map-banner">
-# Mexique
 
+# Mexique
+<img src="{{ '/assets/images/mexique-carte.jpg' | relative_url }}" class="map-banner">
 <div class="hero-card">
 Le Mexique constitue aujourd’hui un centre stratégique du narcotrafic mondial, 
 notamment dans la production synthétique (méthamphétamine, fentanyl) 
