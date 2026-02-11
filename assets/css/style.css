@@ -1,18 +1,82 @@
-:root{ color-scheme: dark; }
+:root{
+  color-scheme: dark;
+}
+
+/* Fond général */
 body{
-  margin:0; background:#070707; color:#eaeaea;
-  font-family: Arial, sans-serif; line-height:1.6;
+  margin:0;
+  background:#000000;
+  color:#e6edf3;
+  font-family: Arial, sans-serif;
+  line-height:1.6;
 }
-main{ max-width: 950px; margin:0 auto; padding: 28px 18px 60px; }
-a{ color:#9bdcff; text-decoration:none; }
-a:hover{ text-decoration:underline; }
-.top{ margin-bottom:26px; padding-bottom:14px; border-bottom:1px solid #1f1f1f; }
-.brand{ font-weight:700; letter-spacing:.3px; }
-.nav{ margin-top:8px; opacity:.9; }
-.sep{ margin: 0 8px; opacity:.5; }
-h1,h2,h3{ color:#fff; line-height:1.25; }
+
+/* Conteneur principal */
+main{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px 60px;
+}
+
+/* Titres */
+h1,h2,h3{
+  color:#ffffff;
+  margin-top: 30px;
+}
+
+/* Liens */
+a{
+  color:#4da3ff;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+
+/* Bandeau haut */
+.top{
+  margin-bottom:30px;
+  padding-bottom:15px;
+  border-bottom:1px solid #111827;
+}
+
+.brand{
+  font-weight:700;
+  font-size:1.2em;
+  letter-spacing:.5px;
+}
+
+.nav{
+  margin-top:10px;
+}
+
+.sep{
+  margin: 0 10px;
+  opacity:.4;
+}
+
+/* BOÎTES BLEU NUIT */
 .card{
-  border:1px solid #1f1f1f; border-radius:12px;
-  padding:16px; margin:14px 0; background:#0c0c0c;
+  background:#0b1a2a;
+  border:1px solid #13273f;
+  border-radius:14px;
+  padding:20px;
+  margin:20px 0;
+  box-shadow: 0 0 15px rgba(0, 40, 90, 0.3);
 }
-.foot{ margin-top:44px; opacity:.6; font-size:.9em; }
+
+/* Listes propres */
+ul{
+  padding-left:20px;
+}
+
+li{
+  margin-bottom:6px;
+}
+
+/* Footer */
+.foot{
+  margin-top:50px;
+  opacity:.6;
+  font-size:.9em;
+}
