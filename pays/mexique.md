@@ -3,7 +3,7 @@ layout: default
 title: Mexique
 permalink: /pays/mexique/
 ---
-
+<img src="{{ '/assets/images/mexique-carte.jpg' | relative_url }}" class="map-banner">
 # Mexique
 
 <div class="hero-card">
