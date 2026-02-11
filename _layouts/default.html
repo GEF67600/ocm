@@ -1,27 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ page.title }} · {{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
-  </head>
-  <body>
-    <main>
-      <header class="top">
-   <a class="brand" href="{{ '/' | relative_url }}" style="text-decoration:none;color:inherit;">
-  <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="OCM" class="logo">
-  <div class="brand-text">{{ site.title }}</div>
-</a>
-          <span class="sep">·</span>
-          <a href="{{ '/archive/' | relative_url }}">Archive</a>
-        </nav>
-      </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
 
-      {{ content }}
+<body>
 
-      <footer class="foot">© {{ site.time | date: "%Y" }} OCM</footer>
-    </main>
-  </body>
+  <main>
+
+    <!-- HEADER -->
+    <header class="top">
+
+      <a class="brand" href="{{ '/' | relative_url }}" style="text-decoration:none;color:inherit;">
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="OCM" class="logo">
+        <div class="brand-text">Les Organisations Criminelles Mondiales - OCM</div>
+      </a>
+
+      <nav class="nav">
+        <a href="{{ '/' | relative_url }}">Accueil</a>
+        <span class="sep">·</span>
+        <a href="{{ '/organisations/' | relative_url }}">Organisations</a>
+        <span class="sep">·</span>
+        <a href="{{ '/dirigeants/' | relative_url }}">Dirigeants</a>
+        <span class="sep">·</span>
+        <a href="{{ '/archive/' | relative_url }}">Archive</a>
+      </nav>
+
+    </header>
+
+    <!-- CONTENU PRINCIPAL -->
+    {{ content }}
+
+    <!-- FOOTER -->
+    <footer class="foot">
+      © {{ site.time | date: "%Y" }} OCM
+    </footer>
+
+  </main>
+
+</body>
 </html>
