@@ -21,7 +21,7 @@ main{
 /* Titres */
 h1{
   font-size:1.8em;               /* plus petit qu’avant */
-  border-left:4px solid #b11226; /* rouge profond */
+  border-left:4px solid #990000; /* rouge profond */
   padding-left:12px;
   margin-top:10px;
 }
