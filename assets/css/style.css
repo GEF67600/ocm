@@ -1,0 +1,18 @@
+:root{ color-scheme: dark; }
+body{
+  margin:0; background:#070707; color:#eaeaea;
+  font-family: Arial, sans-serif; line-height:1.6;
+}
+main{ max-width: 950px; margin:0 auto; padding: 28px 18px 60px; }
+a{ color:#9bdcff; text-decoration:none; }
+a:hover{ text-decoration:underline; }
+.top{ margin-bottom:26px; padding-bottom:14px; border-bottom:1px solid #1f1f1f; }
+.brand{ font-weight:700; letter-spacing:.3px; }
+.nav{ margin-top:8px; opacity:.9; }
+.sep{ margin: 0 8px; opacity:.5; }
+h1,h2,h3{ color:#fff; line-height:1.25; }
+.card{
+  border:1px solid #1f1f1f; border-radius:12px;
+  padding:16px; margin:14px 0; background:#0c0c0c;
+}
+.foot{ margin-top:44px; opacity:.6; font-size:.9em; }
