@@ -1,0 +1,5 @@
+title: "Les Organisations Criminelles Mondiales - OCM"
+description: "Recenser et expliquer les organisations criminelles mondiales."
+theme: null
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
