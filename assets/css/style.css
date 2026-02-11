@@ -283,3 +283,42 @@ h2{
   font-size:1.1em;
   opacity:0.85;
 }
+/* TIMELINE */
+
+.timeline{
+  position:relative;
+  margin:50px 0;
+  padding-left:40px;
+  border-left:3px solid #b11226;
+}
+
+.timeline-item{
+  margin-bottom:40px;
+  position:relative;
+}
+
+.timeline-item::before{
+  content:"";
+  position:absolute;
+  left:-11px;
+  top:5px;
+  width:16px;
+  height:16px;
+  background:#b11226;
+  border-radius:50%;
+  box-shadow:0 0 10px rgba(177,18,38,0.6);
+}
+
+.timeline-date{
+  font-weight:700;
+  margin-bottom:8px;
+  color:#ffffff;
+}
+
+.timeline-content{
+  background:linear-gradient(145deg,#0b1a2a,#0f2238);
+  padding:16px;
+  border-radius:12px;
+  border:1px solid #13273f;
+  box-shadow:0 0 15px rgba(0,60,120,0.2);
+}
