@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Mexique
-<img src="{{ '/assets/images/mexique-carte.jpg' | relative_url }}" class="map-banner">
 permalink: /pays/mexique/
 ---
 
