@@ -101,3 +101,109 @@ h2{
   font-size:1.1em;
   letter-spacing:.4px;
 }
+/* Accueil */
+.hero{
+  display:grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap:22px;
+  margin-top:18px;
+}
+
+@media (max-width: 900px){
+  .hero{ grid-template-columns: 1fr; }
+}
+
+.kicker{
+  display:inline-block;
+  padding:6px 10px;
+  border:1px solid #13273f;
+  border-radius:999px;
+  background:#0b1a2a;
+  letter-spacing:.4px;
+  font-weight:700;
+  font-size:.85em;
+  opacity:.95;
+}
+
+.lead{ opacity:.9; max-width: 62ch; }
+
+.hero-actions{
+  display:flex;
+  gap:10px;
+  margin:16px 0 12px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  display:inline-block;
+  padding:10px 14px;
+  border-radius:10px;
+  background:#123153;
+  border:1px solid #1a3c66;
+  color:#e6edf3;
+}
+.btn:hover{ text-decoration:none; filter:brightness(1.07); }
+
+.btn-ghost{
+  background:transparent;
+  border:1px solid #1a3c66;
+}
+
+.chips{ display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
+.chip{
+  padding:6px 10px;
+  border-radius:999px;
+  background:#0f2238;
+  border:1px solid #13273f;
+  font-size:.9em;
+  opacity:.9;
+}
+
+.hero-card{
+  background:linear-gradient(145deg,#0b1a2a,#0f2238);
+  border:1px solid #13273f;
+  border-radius:16px;
+  padding:18px;
+  box-shadow:0 0 18px rgba(0,60,120,0.22);
+}
+
+.hero-card-title{
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+.clean{ list-style:none; padding-left:0; margin:0; }
+.clean li{ padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.06); }
+.clean li:last-child{ border-bottom:none; }
+
+.muted{ opacity:.65; font-size:.92em; }
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:14px;
+  margin:26px 0;
+}
+
+@media (max-width: 900px){
+  .grid{ grid-template-columns: 1fr; }
+}
+
+.tile{
+  display:block;
+  padding:18px;
+  border-radius:16px;
+  background:#0b1a2a;
+  border:1px solid #13273f;
+  box-shadow:0 0 16px rgba(0,60,120,0.18);
+  transition: .2s ease;
+}
+.tile:hover{
+  transform: translateY(-3px);
+  text-decoration:none;
+  box-shadow:0 0 22px rgba(0,90,160,0.28);
+}
+
+.tile-title{ font-weight:700; font-size:1.05em; margin-bottom:6px; }
+.tile-text{ opacity:.85; }
+
