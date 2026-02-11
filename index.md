@@ -3,18 +3,12 @@ layout: default
 title: Accueil
 ---
 
-# Les Organisations Criminelles Mondiales (OCM)
+<div class="hero">
+  <div class="hero-left">
+    <div class="kicker">OCM</div>
+    <h1>Les Organisations Criminelles Mondiales</h1>
+    <p class="lead">
+      Site de documentation : organisations, dirigeants, marchés, routes, méthodes et chronologies.
+    </p>
 
-Site de documentation : organisations, dirigeants, marchés, routes, méthodes, chronologies.
-
-## Derniers articles
-<div class="card">
-  <ul>
-    {% for post in site.posts limit:10 %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        — <small>{{ post.date | date: "%d/%m/%Y" }}</small>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+    <div class="hero-actio
