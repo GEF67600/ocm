@@ -12,7 +12,10 @@
       <header class="top">
         <div class="brand">{{ site.title }}</div>
         <nav class="nav">
-          <a href="{{ '/' | relative_url }}">Accueil</a>
+          <div class="brand">
+  <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="OCM" class="logo">
+  <div class="brand-text">{{ site.title }}</div>
+</div>
           <span class="sep">·</span>
           <a href="{{ '/archive/' | relative_url }}">Archive</a>
         </nav>
