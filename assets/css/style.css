@@ -56,4 +56,31 @@ h2{
 
 /* BOÎTES BLEU NUIT */
 .card{
-  background
+  background:linear-gradient(145deg,#0b1a2a,#0f2238);
+  border:1px solid #13273f;
+  border-radius:16px;
+  padding:22px;
+  margin:22px 0;
+  box-shadow:0 0 20px rgba(0,60,120,0.25);
+  transition:0.2s ease;
+}
+
+.card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 0 25px rgba(0,90,160,0.35);
+}
+
+/* Images */
+.article-image{
+  width:100%;
+  border-radius:14px;
+  margin:25px 0;
+  box-shadow:0 0 20px rgba(0,50,100,0.4);
+}
+
+/* Footer */
+.foot{
+  margin-top:60px;
+  opacity:.6;
+  font-size:.9em;
+}
